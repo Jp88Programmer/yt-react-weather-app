@@ -29,10 +29,10 @@ const PraticeCss = () => {
       <div className="dark:bg-slate-900 bg-[#38bdf8] flex justify-between p-5 text-white text-xl capitalize border-blue-500">
         <ul className="flex items-center space-x-10">
           <li className="cursor-pointer">
-            <UilBitcoin className="w-8 h-8" />
+            <UilBitcoin className="w-8 h-8 bitcoin" />
           </li>
-          <li className="cursor-pointer">product</li>
-          <li className="cursor-pointer">utility</li>
+          <li className="cursor-pointer bitcoin">product</li>
+          <li className="cursor-pointer bitcoin">utility</li>
         </ul>
         <ul className="flex items-center space-x-10">
           <li className="cursor-pointer">
@@ -58,7 +58,7 @@ const PraticeCss = () => {
           </li>
         </ul>
       </div>
-      <div className="dark:bg-slate-800 bg-[#98daf7] w-full h-full pb-10">
+      <div className="dark:bg-slate-800 bg-[#98daf7]  w-full h-full pb-10">
         <div className="flex flex-col space-y-4 items-center p-10">
           <span className="text-white text-lg max-w-4xl text-center">
             Bitcoin is an innovative payment network and a new kind of money.

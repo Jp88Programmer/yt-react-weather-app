@@ -9,6 +9,14 @@
         font-family: 'Poppins', sans-serif; 
     }
 
+    .bitcoin{
+        @apply transition
+    }
+
+    .bitcoin:hover{
+        @apply dark:text-[#38bdf8] 
+    }
+
     .box-des {
         @apply bg-[#38bdf8] p-8 pb-10 flex flex-col items-center space-y-3 w-96 rounded-lg transition cursor-pointer lg:w-80
     }
